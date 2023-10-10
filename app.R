@@ -2,6 +2,7 @@ devtools::install_github("Elaineflying/Assignment5")
 library(stamenmap)
 library(shiny)
 library(IRdisplay)
+library(ggplot2)
 
 ui <- fluidPage(
   titlePanel("Stamen Map"),
